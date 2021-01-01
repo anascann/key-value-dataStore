@@ -27,5 +27,15 @@ I am using File system of Node.js to integrate with the for writing, reading or 
 
 ## Data-store Library/Node Module 
  
-** I have also built a library for other developer for the same named as **  > data-store.
-Other developer can instantiate this library/module by simply downloading this folder and running the command on the root directory  **npm install ./data-store**
+**I have also built a library for other developer for the same named as**   **data-store.
+Other developer can instantiate this library/module by simply downloading this folder and running the command on the root directory  **npm install  ./data-store**
+
+Go to Your File or your routes folder. inlude **var datastore=require('datastore')**
+
+1. To Create -> use **datastore.create(id,value)** which takes 2 parameters ID and Value. The file will be saved with the name ID.json in your ./storage folder.
+2. To Read ->  use **datastore.read(id)** takes ID Parameters and returns data.
+3. To delete -> use **datastore.del(id)** takes ID parameters and return success message on deleting the File.
+
+
+## Thank You. :)
+
