@@ -1,0 +1,11 @@
+{
+  "name": "datastore",
+  "version": "1.0.0",
+  "description": "This is a library to store your values in a key-value pair to create, read or delete on your local storage laptop which acts as a DB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anas khan",
+  "license": "ISC"
+}
